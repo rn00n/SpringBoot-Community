@@ -10,8 +10,8 @@ import java.util.List;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
 public class AutoconfigurationApplicationTests {
     @Value("${property.test.name}")
     private String propertyTestName;

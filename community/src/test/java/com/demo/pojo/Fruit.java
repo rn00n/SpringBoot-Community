@@ -1,5 +1,6 @@
 package com.demo.pojo;
 
+
 public class Fruit {
     private String name;
     private String color;

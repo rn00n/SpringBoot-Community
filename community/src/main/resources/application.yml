@@ -1,23 +1,23 @@
-#property:
-#  test:
-#    name: property depth test
-#propertyTest: test
-#propertyTestList: a,b,c
-#---
-#fruit:
-#  list:
-#    - name: banana
-#      color: yellow
-#    - name: apple
-#      color: red
-#    - name: water melon
-#      color: green
-#---
-#spring:
-#  h2:
-#    console:
-#      path: /h2-test
-#---
+property:
+  test:
+    name: property depth test
+propertyTest: test
+propertyTestList: a,b,c
+---
+fruit:
+  list:
+    - name: banana
+      color: yellow
+    - name: apple
+      color: red
+    - name: water melon
+      color: green
+---
+spring:
+  h2:
+    console:
+      path: /h2-test
+---
 
 # H2 메모리 DB를 사용하기 위한 설정
 datasource:
