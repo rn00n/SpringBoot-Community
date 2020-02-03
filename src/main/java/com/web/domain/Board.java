@@ -1,6 +1,5 @@
 package com.web.domain;
 
-import com.web.domain.User;
 import com.web.domain.enums.BoardType;
 import lombok.Builder;
 import lombok.Getter;
